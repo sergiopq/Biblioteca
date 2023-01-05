@@ -1,0 +1,99 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+
+<div class="contenedor">
+    <div class="encabezado">
+    <img src="./img/biblioteca.jpg" width="960" height="640" alt="Imagen biblioteca municipal">
+     <p>Biblioteca Pública Municipal</p>
+    </div>
+    <ul class="menu">
+        <li><a href="./index.html">Inicio </a></li>
+         <li><a href="#">Áreas</a>
+            <ul class="submenu">
+                <li><a href="./views/area.php?accion=ingresar">Ingresar nueva</a></li>
+                <li><a href="./views/area.php?accion=consultar">Consultar</a></li>
+                <li><a href="./views/area.php?accion=modificar">Modificar</a></li>
+                <li><a href="./views/area.php?accion=eliminar">Eliminar</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Libros</a>
+            <ul class="submenu">
+                <li><a href="./views/libro.php?accion=ingresar">Ingresar nueva</a></li>
+                <li><a href="./views/libro.php?accion=consultar">Consultar</a></li>
+                <li><a href="./views/libro.php?accion=modificar">Modificar</a></li>
+                <li><a href="./views/libro.php?accion=eliminar">Eliminar</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Préstamos</a>
+            <ul class="submenu">
+                 <li><a href="./views/prestamo.php?accion=prestamo">Realizar préstamo</a></li>
+                <li><a href="./views/prestamo.php?accion=devolucion">Realizar devolución</a></li>
+            </ul>
+        </li>
+
+        <li><a href="./views/sanciones.php">Sanciones</a></li>
+        <li><a href="#">Usuarios</a>
+            <ul class="submenu">
+                <li><a href="./views/usuario.php?accion=ingresar">Ingresar nueva</a></li>
+                 <li><a href="./views/usuario.php?accion=consultar">Consultar</a></li>
+                <li><a href="./views/usuario.php?accion=modificar">Modificar</a></li>
+                <li><a href="./views/usuario.php?accion=eliminar">Eliminar</a></li>
+            </ul>
+        </li>
+        <li><a href="../logout.php" class="boton_salir">Cerrar Sesion</a></li>  
+        <li><a href="./Manual_usuario.pdf" target="_blank" id="ayuda">?</a></li>
+    </ul>
+
+<!--Mapa de Sitio-->
+<div class="mapa">
+<h2>Mapa del Sitio</h2>
+    <ul>
+        <li><a href="./index.html">Inicio </a></li>
+         <li><a href="#">Áreas</a>
+            <ul class="submapa">
+                <li><a href="./views/area.php?accion=ingresar">Ingresar érea</a></li>
+                <li><a href="./views/area.php?accion=consultar">Consultar érea</a></li>
+                <li><a href="./views/area.php?accion=modificar">Modificar érea</a></li>
+                <li><a href="./views/area.php?accion=eliminar">Eliminar érea</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Libros</a>
+            <ul class="submapa">
+                <li><a href="./views/libro.php?accion=ingresar">Ingresar libro</a></li>
+                <li><a href="./views/libro.php?accion=consultar">Consultar libro</a></li>
+                <li><a href="./views/libro.php?accion=modificar">Modificar libro</a></li>
+                <li><a href="./views/libro.php?accion=eliminar">Eliminar libro</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Préstamos</a>
+            <ul class="submapa">
+                 <li><a href="./views/prestamo.php?accion=prestamo">Realizar préstamo</a></li>
+                <li><a href="./views/prestamo.php?accion=devolucion">Realizar devolución</a></li>
+            </ul>
+        </li>
+
+        <li><a href="./views/sanciones.php">Sanciones</a></li>
+
+        <li><a href="#">Usuarios</a>
+            <ul class="submapa">
+                <li><a href="./views/usuario.php?accion=ingresar">Ingresar usuario</a></li>
+                 <li><a href="./views/usuario.php?accion=consultar">Consultar usuario</a></li>
+                <li><a href="./views/usuario.php?accion=modificar">Modificar usuario</a></li>
+                <li><a href="./views/usuario.php?accion=eliminar">Eliminar usuario</a></li>
+            </ul>
+        </li>
+        <li><a href="../logout.php" class="boton_salir">Cerrar Sesión</a></li>  
+    </ul>
+    <div>
+
+    <footer>
+        <p> © Todos los derechos reservados 2022 </p>
+    </footer>
+ 
+</div>
